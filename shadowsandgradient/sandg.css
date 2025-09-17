@@ -1,0 +1,83 @@
+.t{
+    color: rgb(78, 6, 6);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-align: center;
+    text-shadow: 2px 2px 4px #d4bfbf;
+    font-size: 100px;
+}
+.div1{
+    align-items: center;
+    display: flex;
+}
+.h2{
+    margin-top: 200px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color: rgb(46, 26, 26);
+    text-shadow: 1px 1px 2px #d4bfbf;
+}
+.box1{
+    width:500px;
+    height:300px;
+    border-radius: 20px;
+    background-color: azure;
+    border: 5px solid rgb(130, 106, 106);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+ box-shadow: 8px 8px 20px rgba(59, 37, 59, 0.3);
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+   
+}
+   
+
+.box2{
+    width:500px;
+    height:300px;
+    border-radius: 20px;
+    background-color: azure;
+    border: 5px solid rgb(130, 106, 106);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    box-shadow: 10px 10px 10px rgba(59, 37, 59, 0.3);
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+
+}
+.boxrow {
+    display: flex;
+    gap: 50px;
+    justify-content:left ; 
+    margin-top: 30px;
+}
+.box3{
+    width:500px;
+    height:300px;
+    border-radius: 20px;
+    background-color: azure;
+    border: 5px solid rgb(130, 106, 106);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    box-shadow: 15px 15px 15px rgba(59, 37, 59, 0.3);
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+
+}
+.box4{
+    width:500px;
+    height:300px;
+    border-radius: 20px;
+    background-color: rgb(48, 53, 53);
+    border: 5px solid rgb(48, 53, 53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    box-shadow: 20px 15px 15px rgba(47, 42, 47, 0.3);
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+
+}

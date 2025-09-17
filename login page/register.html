@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register for IT Training</title>
+    <link rel="stylesheet" href="/CSS/register.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <h2>Register for IT Training</h2>
+            <label for="fullname"><b>Full Name</b></label>
+            <input type="text" id="fullname" name="fullname" placeholder="full name" required>
+
+            <label for="email"><b>Email Address</b></label>
+            <input type="email" id="email" name="email" placeholder="email" required>
+
+
+    <form class="registration-form">
+        <label for="phone"><b>Phone Number</b></label>
+        <input type="text" id="phone" name="phone" placeholder="Enter your phone number">
+
+        <label for="course"><b>Select Course</b></label>
+        <select id="course" name="course">
+            <option>Choose a course</option>
+            <option>Web Development</option>
+            <option>Data Science</option>
+            <option>Machine Learning</option>
+            <option>Cloud Computing</option>
+        </select>
+
+        <div class="section">
+            <span>Preferred Learning Mode:</span>
+            <label><input type="radio" name="mode" value="online"> Online</label>
+            <label><input type="radio" name="mode" value="offline"> Offline</label>
+        </div>
+
+        <div class="section">
+            <span>Skills You Already Know:</span>
+            <label><input type="checkbox" name="skills" value="HTML"> HTML</label>
+            <label><input type="checkbox" name="skills" value="CSS"> CSS</label>
+            <label><input type="checkbox" name="skills" value="JavaScript"> JavaScript</label>
+            <label><input type="checkbox" name="skills" value="Java"> Java</label>
+        </div>
+
+        <label for="notes">Additional Notes</label>
+        <textarea id="notes" name="notes" placeholder="Any specific requests..."></textarea>
+
+        <button type="submit" class="submit-btn">Submit Registration</button>
+    </form>
+    </div>
+</body>
+</html>

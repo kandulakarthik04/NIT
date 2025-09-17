@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KARTHIK | Software Developer</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/bootstrapprotfolio/bsprotfolio.css">
+
+    <style>
+        /* --- Custom Styles --- */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        /* Custom scrollbar to match the design */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #adb5bd;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+        
+        /* Navigation Bar */
+        .navbar {
+            background-color: #fff;
+            border-bottom: 1px solid #e9ecef;
+            padding: 1rem 0;
+        }
+        .navbar-brand {
+            color: rgb(80, 87, 219);
+            font-weight: 700;
+        }
+        .nav-link {
+            font-weight: 500;
+        }
+
+        /* Hero Section */
+        .hero-section {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        /* Profile Image */
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border: 5px solid #ffffff;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Custom text color for the name */
+        .name-highlight {
+            color: #3f51b5; /* A nice blue color */
+        }
+        
+        /* Custom Buttons */
+        .btn-custom-primary {
+            background-color: #673ab7; /* Purple color from the image */
+            border-color: #673ab7;
+            color: #fff;
+            padding: 0.75rem 1.5rem;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+        }
+        .btn-custom-primary:hover {
+            background-color: #512da8;
+            border-color: #512da8;
+            color: #fff;
+        }
+        .btn-custom-outline {
+            border-color: #ced4da;
+            color: #495057;
+            padding: 0.75rem 1.5rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        .btn-custom-outline:hover {
+            background-color: #495057;
+            color: #fff;
+        }
+
+    </style>
+
+
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">KARTHIK</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="hero-section">
+        <div class="container text-center">
+            
+                        <img src="/bootstrapprotfolio/kkcimage.jpg" class="profile-img rounded-circle mb-4" alt="Profile picture of KARTHIK">
+
+            <h1 class="display-4 fw-bold mb-3">
+                Hi, I'm <span class="name-highlight">KARTHIK</span>
+            </h1>
+
+            <p class="lead text-muted mx-auto" style="max-width: 650px;">
+                A passionate Software Developer with 3 years of experience and expertise in Java and React JS. I love crafting innovative solutions that make a difference.
+            </p>
+
+            <div class="mt-4 pt-2">
+                <a href="#" class="btn btn-custom-primary btn-lg me-sm-3 mb-2 mb-sm-0">View My Work &rarr;</a>
+                <a href="#" class="btn btn-custom-outline btn-lg">Get In Touch</a>
+            </div>
+
+        </div>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8f9fa;
+        }
+        /* Custom styles for the section */
+        .about-section {
+            padding-top: 6rem;
+            padding-bottom: 6rem;
+        }
+        .about-img {
+            max-width: 300px;
+            height: auto;
+        }
+        .btn-download-cv {
+            padding: 0.6rem 1.2rem;
+        }
+    </style>
+
+
+    <section id="about" class="about-section bg-white" >
+        <div class="container">
+
+            <div class="row justify-content-center text-center mb-5">
+                <div class="col-md-8">
+                    <h2 class="fw-bold display-6">About Me</h2>
+                    <p class="text-muted">A brief story of who I am and what drives me.</p>
+                </div>
+            </div>
+
+            <div class="row align-items-center">
+
+                <div class="col-lg-7 pe-lg-5">
+                    <p class="mb-4">
+                        I am a dedicated Software Developer with 3 years of experience. My journey began with a curiosity for programming, which quickly blossomed into a profound passion for creating robust and user-friendly applications. I thrive on challenges and constantly seek opportunities to learn and grow.
+                    </p>
+                    <p class="mb-4">
+                        My approach is rooted in problem-solving and continuous improvement, ensuring that every project I undertake is not just functional but also efficient and scalable. When I'm not coding, you can find me exploring new technologies or enjoying a good book.
+                    </p>
+                    <a href="#" class="btn btn-outline-primary btn-download-cv mt-2">
+                        Download CV
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-down ms-2" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M3.5 10.5a.5.5 0 0 1 .5.5v1a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-1a.5.5 0 0 1 1 0v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-1a.5.5 0 0 1 .5-.5z"/>
+                            <path fill-rule="evenodd" d="M7.646 12.354a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.646a.5.5 0 1 0-.708.708l3 3z"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="col-lg-5 text-center text-lg-end mt-5 mt-lg-0">
+                                        <img src="/bootstrapprotfolio/kkimage.jpg" class="img-fluid rounded-4 shadow-lg about-img" alt="A photo of the developer">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .skills-section {
+            padding-top: 6rem;
+            padding-bottom: 6rem;
+            background-color: #f8f9fa; /* Light gray background */
+        }
+
+        .skill-card {
+            border: 0;
+            border-radius: 1rem; /* Softer rounded corners */
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .skill-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.1) !important;
+        }
+        
+        .skill-icon {
+            width: 48px;
+            height: 48px;
+        }
+    </style>
+
+    <section id="skills" class="skills-section">
+        <div class="container">
+
+            <div class="row justify-content-center text-center mb-5">
+                <div class="col-md-8">
+                    <h2 class="fw-bold display-6">My Skills</h2>
+                    <p class="text-muted">The tools and expertise I bring to the table.</p>
+                </div>
+            </div>
+
+            <div class="row g-4 justify-content-center">
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card text-center p-3 h-100 shadow-sm skill-card">
+                        <div class="card-body">
+                            <div class="mb-3">
+                               <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="blue" class="bi bi-code-slash" viewBox="0 0 16 16">
+  <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0"/>
+</svg>
+                            </div>
+                            <h5 class="card-title fw-bold">Frontend Development</h5>
+                            <p class="card-text text-muted small">HTML, CSS, Bootstrap, Tailwind, React JS.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card text-center p-3 h-100 shadow-sm skill-card">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="green" class="bi bi-server" viewBox="0 0 16 16">
+  <path d="M1.333 2.667C1.333 1.194 4.318 0 8 0s6.667 1.194 6.667 2.667V4c0 1.473-2.985 2.667-6.667 2.667S1.333 5.473 1.333 4z"/>
+  <path d="M1.333 6.334v3C1.333 10.805 4.318 12 8 12s6.667-1.194 6.667-2.667V6.334a6.5 6.5 0 0 1-1.458.79C11.81 7.684 9.967 8 8 8s-3.809-.317-5.208-.876a6.5 6.5 0 0 1-1.458-.79z"/>
+  <path d="M14.667 11.668a6.5 6.5 0 0 1-1.458.789c-1.4.56-3.242.876-5.21.876-1.966 0-3.809-.316-5.208-.876a6.5 6.5 0 0 1-1.458-.79v1.666C1.333 14.806 4.318 16 8 16s6.667-1.194 6.667-2.667z"/>
+</svg>
+                            </div>
+                            <h5 class="card-title fw-bold">Backend Development</h5>
+                            <p class="card-text text-muted small">Java EE, Spring Boot, Node.js, MySQL.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card text-center p-3 h-100 shadow-sm skill-card">
+                        <div class="card-body">
+                            <div class="mb-3">
+                               
+                            </div>
+                            <h5 class="card-title fw-bold">DevOps & Cloud</h5>
+                            <p class="card-text text-muted small">Git, Docker, AWS.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card text-center p-3 h-100 shadow-sm skill-card">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="orange" class="bi bi-lightbulb" viewBox="0 0 16 16">
+  <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a2 2 0 0 0-.453-.618A5.98 5.98 0 0 1 2 6m6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1"/>
+</svg>
+                            </div>
+                            <h5 class="card-title fw-bold">Problem Solving</h5>
+                            <p class="card-text text-muted small">Analytical thinking, debugging, efficient solution design.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card text-center p-3 h-100 shadow-sm skill-card">
+                        <div class="card-body">
+                            <div class="mb-3">
+                               <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="brown" class="bi bi-people" viewBox="0 0 16 16">
+  <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1zm-7.978-1L7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002-.014.002zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0M6.936 9.28a6 6 0 0 0-1.23-.247A7 7 0 0 0 5 9c-4 0-5 3-5 4q0 1 1 1h4.216A2.24 2.24 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816M4.92 10A5.5 5.5 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4"/>
+</svg>
+                            </div>
+                            <h5 class="card-title fw-bold">Team Collaboration</h5>
+                            <p class="card-text text-muted small">Agile methodologies, communication, conflict resolution.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card text-center p-3 h-100 shadow-sm skill-card">
+                        <div class="card-body">
+                            <div class="mb-3">
+                               <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="rgb" class="bi bi-palette" viewBox="0 0 16 16">
+  <path d="M8 5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3m4 3a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3M5.5 7a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m.5 6a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+  <path d="M16 8c0 3.15-1.866 2.585-3.567 2.07C11.42 9.763 10.465 9.473 10 10c-.603.683-.475 1.819-.351 2.92C9.826 14.495 9.996 16 8 16a8 8 0 1 1 8-8m-8 7c.611 0 .654-.171.655-.176.078-.146.124-.464.07-1.119-.014-.168-.037-.37-.061-.591-.052-.464-.112-1.005-.118-1.462-.01-.707.083-1.61.704-2.314.369-.417.845-.578 1.272-.618.404-.038.812.026 1.16.104.343.077.702.186 1.025.284l.028.008c.346.105.658.199.953.266.653.148.904.083.991.024C14.717 9.38 15 9.161 15 8a7 7 0 1 0-7 7"/>
+</svg>
+                            </div>
+                            <h5 class="card-title fw-bold">Advanced UI/UX</h5>
+                            <p class="card-text text-muted small">Wireframing, prototyping, user-centered design principles.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <section class="py-5">
+    <div class="container text-center">
+        <h2 class="mb-2">My Recent Work</h2>
+        <p class="text-muted mb-5">A collection of projects that showcase my capabilities.</p>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0">
+                    <img src="/bootstrapprotfolio/p1.jpg" class="card-img-top" alt="Project Image">
+                    <div class="card-body text-start">
+                        <h5 class="card-title">Project Name Alpha</h5>
+                        <p class="card-text text-muted">A responsive web application built with Bootstrap and focused on a key feature.</p>
+                        <div class="d-flex flex-wrap gap-2 mb-3">
+                            <span class="badge bg-primary text-light">Bootstrap</span>
+                            <span class="badge bg-info text-dark">HTML5</span>
+                            <span class="badge bg-success text-light">View Project</span>
+                        </div>
+                        <a href="#" class="btn btn-outline-primary d-block">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0">
+                    <img src="/bootstrapprotfolio/p2.jpeg" class="card-img-top" alt="Project Image">
+                    <div class="card-body text-start">
+                        <h5 class="card-title">Innovative Dashboard</h5>
+                        <p class="card-text text-muted">Designed and developed a data visualization dashboard using Bootstrap components.</p>
+                        <div class="d-flex flex-wrap gap-2 mb-3">
+                            <span class="badge bg-info text-dark">Data Viz</span>
+                            <span class="badge bg-primary text-light">Bootstrap</span>
+                            <span class="badge bg-success text-light">View Project</span>
+                        </div>
+                        <a href="#" class="btn btn-outline-primary d-block">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0">
+                    <img src="/bootstrapprotfolio/p3.jpg" class="card-img-top" alt="Project Image">
+                    <div class="card-body text-start">
+                        <h5 class="card-title">E-commerce Landing Page</h5>
+                        <p class="card-text text-muted">A sleek and modern e-commerce landing page with a focus on user experience.</p>
+                        <div class="d-flex flex-wrap gap-2 mb-3">
+                            <span class="badge bg-warning text-dark">UI/UX</span>
+                            <span class="badge bg-primary text-light">Bootstrap</span>
+                            <span class="badge bg-success text-light">View Project</span>
+                        </div>
+                        <a href="#" class="btn btn-outline-primary d-block">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0">
+                    <img src="/bootstrapprotfolio/p4.jpg" class="card-img-top" alt="Project Image">
+                    <div class="card-body text-start">
+                        <h5 class="card-title">Personal Blog Design</h5>
+                        <p class="card-text text-muted">A clean and minimalist blog template for content creators.</p>
+                        <div class="d-flex flex-wrap gap-2 mb-3">
+                            <span class="badge bg-warning text-dark">Blog</span>
+                            <span class="badge bg-primary text-light">Bootstrap</span>
+                            <span class="badge bg-success text-light">View Project</span>
+                        </div>
+                        <a href="#" class="btn btn-outline-primary d-block">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="container text-center py-5" class="foot">
+    <h5 class="text-muted text-uppercase mb-4">connect with me directly:</h5>
+    <ul class="list-unstyled d-flex flex-column align-items-center gap-2">
+        <li>
+            <a href="mailto:r.ravindr58@gmail.com" class="text-dark text-decoration-none d-flex align-items-center">
+                <i class="bi bi-envelope me-2"></i> kkc@gmail.com
+            </a>
+        </li>
+        <li>
+            <a href="tel:+1234567890" class="text-dark text-decoration-none d-flex align-items-center">
+                <i class="bi bi-phone me-2"></i> +91 26126462555
+            </a>
+        </li>
+    </ul>
+</div>
+
+<footer class="bg-dark text-light py-4">
+    <div class="container d-flex justify-content-center">
+        <ul class="list-unstyled d-flex gap-3 m-0">
+            <li><a href="#" class="text-light"><i class="bi bi-linkedin fs-4"></i></a></li>
+            <li><a href="#" class="text-light"><i class="bi bi-github fs-4"></i></a></li>
+            <li><a href="#" class="text-light"><i class="bi bi-twitter fs-4"></i></a></li>
+            <li><a href="#" class="text-light"><i class="bi bi-instagram fs-4"></i></a></li>
+        </ul>
+    </div>
+</footer>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+</body>
+</html>

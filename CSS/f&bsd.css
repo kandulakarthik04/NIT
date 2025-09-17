@@ -1,0 +1,39 @@
+.h3{
+    font-family: "Courier New", Courier, monospace;
+    color: crimson;
+}
+.b1 {
+   border-color: darkblue;
+}
+.div {
+    border: 2px solid blue;
+    padding: 16px; /* optional, for spacing inside the border */
+    margin: 16px 0; /* optional, for spacing outside the border */
+}
+.para1{
+    color: orange;
+}
+.para2{
+    color: blueviolet;
+}
+.para3{
+    color: rgb(155, 108, 21);
+}
+.para4{
+    color: rgb(40, 95, 213);
+}
+.para5{
+    color: indigo;
+}
+.b2
+{
+    border: dotted;
+    border-color: orange;
+}
+.f{
+
+    background-color: lightgrey;
+}
+.u {
+    text-transform: uppercase;
+}

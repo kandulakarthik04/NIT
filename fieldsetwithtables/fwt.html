@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Demonstrating Fieldsets with Tables</title>
+</head>
+<body>
+    <h1>Demonstrating Fieldsets with Tables</h1>
+    <p>This example shows how fieldsets can be used to group related tables and form elements.</p>
+
+    <fieldset>
+        <legend>Personal Information</legend>
+        <table border="1" cellpadding="2" cellspacing="2">
+            <tr>
+                <th colspan="2" align="Middle">Contact Details</th>
+            </tr>
+            <tr>
+                <td>First Name:</td>
+                <td><input type="text" name="firstname"></td>
+            </tr>
+            <tr>
+                <td>Last Name:</td>
+                <td><input type="text" name="lastname"></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="text" name="email"></td>
+            </tr>
+            <tr>
+                <td>Phone:</td>
+                <td><input type="text" name="phone"></td>
+            </tr>
+        </table>
+    </fieldset>
+    <br>
+
+    <fieldset>
+        <legend>Address Information</legend>
+        <table border="1" cellpadding="3" cellspacing="2">
+            <tr>
+                <th colspan="2" align="middle">Mailing Address</th>
+            </tr>
+            <tr>
+                <td>Street:</td>
+                <td><input type="text" name="street"></td>
+            </tr>
+            <tr>
+                <td>City:</td>
+                <td><input type="text" name="city"></td>
+            </tr>
+            <tr>
+                <td>State/Province:</td>
+                <td><input type="text" name="state"></td>
+            </tr>
+            <tr>
+                <td>Postal Code:</td>
+                <td><input type="text" name="postal"></td>
+            </tr>
+            <tr>
+                <td>Country:</td>
+                <td><input type="text" name="country"></td>
+            </tr>
+        </table>
+    </fieldset>
+    <br>
+
+    <fieldset>
+        <legend>Employment History</legend>
+        <p>Please list your last two employers:</p>
+        <table border="1" cellpadding="3" cellspacing="2">
+            <tr>
+                <th colspan="2" align="Middle">Most Recent Employer</th>
+            </tr>
+            <tr>
+                <td>Company Name:</td>
+                <td><input type="text" name="company1"></td>
+            </tr>
+            <tr>
+                <td>Position:</td>
+                <td><input type="text" name="position1"></td>
+            </tr>
+            <tr>
+                <td>Years Employed:</td>
+                <td><input type="text" name="years1"></td>
+            </tr>
+        </table>
+        <br>
+        <table border="1" cellpadding="3" cellspacing="2">
+            <tr>
+                <th colspan="2" align="middle">Previous Employer</th>
+            </tr>
+            <tr>
+                <td>Company Name:</td>
+                <td><input type="text" name="company2"></td>
+            </tr>
+            <tr>
+                <td>Position:</td>
+                <td><input type="text" name="position2"></td>
+            </tr>
+            <tr>
+                <td>Years Employed:</td>
+                <td><input type="text" name="years2"></td>
+            </tr>
+        </table>
+    <fieldset>
+    <br>
+       <fieldset>
+        <legend>Submit Application</legend>
+        <table border="1" cellpadding="3" cellspacing="2">
+            <tr>
+                <td>
+                    <input type="checkbox" id="certify" name="certify">
+                    <label for="certify">I certify that all information provided is correct</label>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <input type="submit" value="Submit Application">
+                    <input type="reset" value="Clear Form">
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    
+<body>

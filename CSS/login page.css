@@ -1,0 +1,105 @@
+body {
+    background-color: rgb(202, 224, 227);
+    min-height: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.container {
+    background: rgb(245, 240, 240);
+    padding: 40px 32px;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(44, 62, 80, 0.15);
+    max-width: 400px;
+    width: 100%;
+}
+
+.login-form h2 {
+    text-align: center;
+    color: #6c2cff;
+    margin-bottom: 24px;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #161515;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #785757;
+    border-radius: 8px;
+    background: #f3f0f0;
+    font-size: 15px;
+}
+
+.login-form input:focus {
+    border-color: #6c2cff;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    font-size: 0.95rem;
+}
+
+.remember input[type="checkbox"] {
+    accent-color: #6c2cff;
+    margin-right: 6px;
+}
+
+.forgot {
+    color: #b3731b;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.forgot:hover {
+    text-decoration: underline;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 12px 0;
+    background: linear-gradient(90deg, #6c2cff 0%, #a259ff 100%);
+    color: #d4c7c7;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 16px;
+    transition: background 0.2s;
+}
+
+.login-form button:hover {
+    background: linear-gradient(90deg, #a259ff 0%, #6c2cff 100%);
+}
+
+.signup {
+    text-align: center;
+    color: #888;
+    font-size: 0.98rem;
+}
+
+.signup a {
+    color: #6c2cff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.signup a:hover {
+    text-decoration: underline;
+}
